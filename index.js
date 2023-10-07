@@ -1,8 +1,8 @@
-  // 'isPalindrone' should take one argument,
+  // 'isPalindrome' should take one argument,
   // that argument should be a string,
-  // check entered string for palindrone,
+  // check entered string for palindrome,
   // if string is palindrome return true,
-  // if string is not palindrone return false
+  // if string is not palindrome return false
   
   function isPalindrome(word) {
   let changedWords = word.toLowerCase().replace(/[^a-z0-9]/gi, '');
